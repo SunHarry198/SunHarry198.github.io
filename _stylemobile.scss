@@ -1,0 +1,19 @@
+@media (max-width: 800px)
+{
+	.protfolio-item{
+			img.item
+			{
+				width: 50%!important;
+			}
+	}
+}
+@media (max-width: 400px)
+{
+	.protfolio-item{
+			img.item
+			{
+				width: 100%!important;
+				padding-left: 30px!important;
+			}
+	}
+}
