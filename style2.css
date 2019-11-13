@@ -141,7 +141,8 @@ body {
 }
 .close-content-this,
 .view-images{
-  position: fixed;
+  position: relative;
+  display: inline-block;
   background: black;
   bottom: 10%;
   font-size: 14px;
@@ -150,10 +151,10 @@ body {
   cursor: pointer;
 }
 .close-content-this{
-  left: 25%;
+  left: 0%;
 }
 .view-images{
-  right: 25%;
+  right: -70%;
 }
 .close-content-this:hover div{
   color: black;
@@ -195,6 +196,9 @@ body {
     padding-right: 15%;
     padding-left: 15%;
   }
+  .view-images{
+    right: -60%;
+  }
 }
 @media (max-width: 600px){
   .content-this{
@@ -203,16 +207,20 @@ body {
     padding-left: 5%;
   }
   .close-content-this{
-    left: 7%;
+    left: 2%;
   }
   .view-images{
-    right: 7%;
+    right: -50%;
   }
 }
 @media (max-width: 415px){
   .content-this{
     padding-top: 20%;
     padding-bottom: 25%; 
+  }
+  .view-images{
+    right: auto;
+    left: 30%;
   }
 }
 
